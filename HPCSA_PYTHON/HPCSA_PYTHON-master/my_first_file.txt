@@ -1,0 +1,3 @@
+Read the file contents if it is present 
+if the file is not present then create a blank file
+and write "I was created with default text " to the file 

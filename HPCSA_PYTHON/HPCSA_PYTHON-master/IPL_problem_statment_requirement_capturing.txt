@@ -1,0 +1,42 @@
+
+
+--------
+IPL
+---------
+Teams (
+Attributes -->
+CV: league_name
+IV : name,owner,captain,sponsers[],support_staff[{role: , name: }]
+	 players[Player]
+Behaviours --> getters/setters/add methods
+)
+
+Player
+(
+Attributes --> 
+IV : name,base_price,actual_price,role,nationality,dob,misc_stats
+Behaviours --> getters/setters/add methods
+)
+
+Venues
+(
+Attributes --> 
+IV : name,location{city:,state:,country:}, capacity
+Behaviours --> getters/setters/add methods
+)
+
+Fixture
+(
+Attributes --> 
+IV : team1,team2,venue,time,winner_team
+Behaviours --> set_a_fixture/get_a_fixture/set_outcome
+)
+
+
+-----
+Implementation:
+-----
+
+
+		
+
